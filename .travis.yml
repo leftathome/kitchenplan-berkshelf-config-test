@@ -4,10 +4,9 @@ install: true
 
 rvm:
   - system
-  - 1.9.3
   - 2.0.0
 
 script:
-    - gem install kitchenplan
+    - sudo gem install kitchenplan
     - kitchenplan create --no-repo
     - kitchenplan provision
