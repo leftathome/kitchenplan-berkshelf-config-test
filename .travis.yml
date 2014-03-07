@@ -4,6 +4,7 @@ install: true
 
 rvm:
   - system
+  - 1.9.3
   - 2.0.0
 
 script:
