@@ -1,12 +1,10 @@
 language: objective-c
 
-install: true
-
 rvm:
   - system
   - 2.0.0
 
 script:
     - sudo gem install kitchenplan
-    - kitchenplan create --no-repo
+    - kitchenplan setup https://github.com/kitchenplan/kitchenplan-config-test.git
     - kitchenplan provision
