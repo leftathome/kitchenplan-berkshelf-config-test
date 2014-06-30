@@ -2,7 +2,7 @@ source "https://api.berkshelf.com"
 
 cookbook "homebrewalt",           github: "kitchenplan/chef-homebrewalt",    tag:  "v1.8.3"
 cookbook "nodejs",                github: "kitchenplan/chef-nodejs",         tag:  "v1.1"
-cookbook "applications",          github: "kitchenplan/chef-applications",   tag:  "v2.0.2"
+cookbook "applications",          github: "kitchenplan/chef-applications",   tag:  "v2.0.3"
 cookbook "osxdefaults",           github: "kitchenplan/chef-osxdefaults",    tag:  "v1.0.2"
 cookbook "dotfiles",              github: "kitchenplan/chef-dotfiles",       tag:  "v1.1"
 cookbook "drivers",               github: "kitchenplan/chef-drivers",        tag:  "v1.0"
